@@ -1,0 +1,147 @@
+:root {
+  --color-bg: #ebfbee;
+  --color-header: #8ce99a;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+  max-width: 120rem;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  font-size: 1.8rem;
+  background-color: var(--color-bg);
+  align-items: center;
+}
+
+.nav-list {
+  padding: 3rem 1rem 3rem 3rem;
+  font-weight: 400;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.nav-link:link,
+.nav-link:visited {
+  text-decoration: none;
+  color: #495057;
+  transition: all 0.3s;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  background-color: #2f9e44;
+  color: #fff;
+  padding: 2rem;
+}
+
+.header {
+  margin: 2.2rem 1.2rem;
+}
+.heading-primary {
+  font-size: 3.6rem;
+  text-align: center;
+  color: #212529;
+  font-weight: 600;
+  margin-bottom: 6rem;
+}
+
+.heading-primary-main {
+  margin: 2rem auto;
+}
+
+.heading-primary-main-title {
+  font-size: 2.2rem;
+  color: #fcc419;
+  margin-bottom: 1.2rem;
+}
+
+.heading-primary-main-sub {
+  font-size: 1.4rem;
+  color: #868e96;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.heading-primary-main-sub span {
+  text-decoration: underline;
+  color: #fcc419;
+}
+
+.header__img-container {
+  display: grid;
+  max-width: 120rem;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  overflow: hidden;
+}
+
+.header__img {
+  width: 100%;
+}
+
+.section-testimonial {
+  background-color: #2f9e44;
+  padding: 2rem 1rem;
+}
+
+.testimonial-text {
+  font-size: 3.6rem;
+  color: #495057;
+  font-weight: 400;
+  margin: 2rem 0;
+}
+
+.testimonila-author {
+  font-size: 1.6rem;
+  color: #343a40;
+  font-weight: 400;
+  margin: 2rem 0;
+}
+
+.gallery {
+  display: grid;
+  max-width: 120rem;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  margin: 8rem 1rem 8rem 1rem;
+  overflow: hidden;
+}
+
+.gallery__img {
+  width: 100%;
+}
+
+.section-join {
+  margin: 2rem auto;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+
+.heading-secondary {
+  font-size: 2.8rem;
+  color: #495057;
+  margin-bottom: 2rem;
+}
+
+.section-img {
+  margin: 2rem auto;
+  width: 50%;
+}
